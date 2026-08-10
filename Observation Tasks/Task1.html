@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the webpage responsive on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>College Information Portal</title>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>College Information Portal</h1>
+
+        <p>
+        <b>Welcome to our college portal. </b>This webpage provides
+            information about the college, students, courses, and
+            registration facilities.
+        </p>
+    </header>
+
+    <!-- Navigation section -->
+    <nav>
+        <a href="#about">About College</a> |
+        <a href="#courses">Courses</a> |
+        <a href="#students">Students</a> |
+        <a href="#registration">Registration</a> |
+        <a href="#multimedia">Multimedia</a>
+    </nav>
+
+    <hr>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- About college section -->
+        <section id="about">
+
+            <h2>About Our College</h2>
+
+            <article>
+                <p>
+                    Our college provides <strong>quality education</strong>
+                    and encourages students to develop
+                    <em>technical and communication skills</em>.
+                </p>
+
+                <p>
+                    The college offers <u>modern learning facilities</u>
+                    and supports innovation and research.
+                </p>
+
+                <p>
+                    H<sub>2</sub>O is the chemical formula for water.
+                    The mathematical expression is x<sup>2</sup>.
+                </p>
+            </article>
+
+            <h3>Useful Links</h3>
+
+            <!-- Hyperlinks -->
+            <a href="https://www.anits.org" target="_blank">
+                Visit College Website
+            </a>
+
+            <br><br>
+
+            <a href="https://www.google.com" target="_blank">
+                Open Google
+            </a>
+
+        </section>
+
+        <hr>
+
+        <!-- Lists section -->
+        <section id="courses">
+
+            <h2>Courses Offered</h2>
+
+            <!-- Ordered list -->
+            <h3>Popular Courses</h3>
+
+            <ol>
+                <li>Computer Science and Engineering</li>
+                <li>Artificial Intelligence and Machine Learning</li>
+                <li>Electronics and Communication Engineering</li>
+                <li>Mechanical Engineering</li>
+            </ol>
+
+            <!-- Unordered list -->
+            <h3>College Facilities</h3>
+
+            <ul>
+                <li>Central Library</li>
+                <li>Computer Laboratories</li>
+                <li>Sports Ground</li>
+                <li>College Canteen</li>
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <!-- Images section -->
+        <section>
+
+            <h2>College Images</h2>
+
+            <!-- College logo -->
+            <img
+                src="c:\Users\DELL\Downloads\anits.jfifc:\Users\DELL\Downloads\anits.jfif"
+                alt="College Logo"
+                width="150"
+                height="150"
+            >
+
+            <!-- Relevant college image -->
+            <img
+                src="college-campus.jpg"
+                alt="View of the college campus"
+                width="400"
+                height="250"
+            >
+
+        </section>
+
+        <hr>
+
+        <!-- Student table -->
+        <section id="students">
+
+            <h2>Student Details</h2>
+
+            <table border="1" cellpadding="10">
+
+                <!-- Table heading -->
+                <caption>
+                    <strong>Student Information</strong>
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>Roll No</th>
+                        <th>Name</th>
+                        <th>Branch</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+
+                <!-- Table data -->
+                <tbody>
+
+                    <tr>
+                        <td>101</td>
+                        <td>Anusha</td>
+                        <td>CSE</td>
+                        <td>anusha@example.com</td>
+                    </tr>
+
+                    <tr>
+                        <td>102</td>
+                        <td>Rahul</td>
+                        <td>AIML</td>
+                        <td>rahul@example.com</td>
+                    </tr>
+
+                    <tr>
+                        <td>103</td>
+                        <td>Priya</td>
+                        <td>ECE</td>
+                        <td>priya@example.com</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- Student registration form -->
+        <section id="registration">
+
+            <h2>Student Registration Form</h2>
+
+            <form>
+
+                <!-- Name -->
+                <label for="name">Student Name:</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <br><br>
+
+                <!-- Password -->
+                <label for="password">Password:</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                >
+
+                <br><br>
+
+                <!-- Gender radio buttons -->
+                <p><strong>Gender:</strong></p>
+
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="Male"
+                >
+
+                <label for="male">Male</label>
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="Female"
+                >
+
+                <label for="female">Female</label>
+
+                <input
+                    type="radio"
+                    id="other"
+                    name="gender"
+                    value="Other"
+                >
+
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <!-- Hobbies checkboxes -->
+                <p><strong>Hobbies:</strong></p>
+
+                <input
+                    type="checkbox"
+                    id="reading"
+                    name="hobbies"
+                    value="Reading"
+                >
+
+                <label for="reading">Reading</label>
+
+                <input
+                    type="checkbox"
+                    id="sports"
+                    name="hobbies"
+                    value="Sports"
+                >
+
+                <label for="sports">Sports</label>
+
+                <input
+                    type="checkbox"
+                    id="music"
+                    name="hobbies"
+                    value="Music"
+                >
+
+                <label for="music">Music</label>
+
+                <br><br>
+
+                <!-- Branch dropdown -->
+                <label for="branch">Select Branch:</label>
+
+                <select id="branch" name="branch">
+
+                    <option value="">-- Select Branch --</option>
+
+                    <option value="CSE">
+                        Computer Science and Engineering
+                    </option>
+
+                    <option value="AIML">
+                        Artificial Intelligence and Machine Learning
+                    </option>
+
+                    <option value="ECE">
+                        Electronics and Communication Engineering
+                    </option>
+
+                    <option value="MECH">
+                        Mechanical Engineering
+                    </option>
+
+                </select>
+
+                <br><br>
+
+                <!-- Date input -->
+                <label for="dob">Date of Birth:</label>
+
+                <input
+                    type="date"
+                    id="dob"
+                    name="dob"
+                >
+
+                <br><br>
+
+                <!-- Number input -->
+                <label for="age">Age:</label>
+
+                <input
+                    type="number"
+                    id="age"
+                    name="age"
+                    min="16"
+                    max="100"
+                >
+
+                <br><br>
+
+                <!-- Color input -->
+                <label for="colour">Favourite Colour:</label>
+
+                <input
+                    type="color"
+                    id="colour"
+                    name="colour"
+                >
+
+                <br><br>
+
+                <!-- Range input -->
+                <label for="rating">
+                    Rate the College:
+                </label>
+
+                <input
+                    type="range"
+                    id="rating"
+                    name="rating"
+                    min="1"
+                    max="10"
+                    value="5"
+                >
+
+                <br><br>
+
+                <!-- Textarea -->
+                <label for="comments">
+                    Comments:
+                </label>
+
+                <br>
+
+                <textarea
+                    id="comments"
+                    name="comments"
+                    rows="5"
+                    cols="40"
+                    placeholder="Enter your comments"
+                ></textarea>
+
+                <br><br>
+
+                <!-- Submit and reset buttons -->
+                <input
+                    type="submit"
+                    value="Register"
+                >
+
+                <input
+                    type="reset"
+                    value="Clear Form"
+                >
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Audio and video -->
+        <section id="multimedia">
+
+            <h2>College Multimedia</h2>
+
+            <h3>College Audio</h3>
+
+            <audio controls>
+
+                <source
+                    src="college-audio.mp3"
+                    type="audio/mpeg"
+                >
+
+                Your browser does not support audio.
+
+            </audio>
+
+            <h3>College Video</h3>
+
+            <video
+                width="500"
+                controls
+            >
+
+                <source
+                    src="college-video.mp4"
+                    type="video/mp4"
+                >
+
+                Your browser does not support video.
+
+            </video>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer section -->
+    <footer>
+
+        <p>
+            &copy; 2026 College Information Portal.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
