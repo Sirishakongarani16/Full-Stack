@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>DOM Demonstration</title>
+
+<style>
+
+body {
+    font-family: Arial;
+    text-align: center;
+    padding: 50px;
+}
+
+#myText {
+    font-size: 25px;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Document Object Model (DOM)</h1>
+
+<p id="myText">
+Original Text
+</p>
+
+<img id="myImage"
+src="https://via.placeholder.com/150"
+alt="Original Image">
+
+<br><br>
+
+<button onclick="changeContent()">
+Change Content
+</button>
+
+<button onclick="changeStyle()">
+Change Style
+</button>
+
+<button onclick="changeAttribute()">
+Change Attribute
+</button>
+
+<script>
+
+function changeContent() {
+
+    document.getElementById("myText").innerHTML =
+        "Content Changed Dynamically!";
+
+}
+
+
+function changeStyle() {
+
+    const element =
+        document.getElementById("myText");
+
+    element.style.color = "blue";
+
+    element.style.backgroundColor = "lightgray";
+
+    element.style.fontSize = "30px";
+
+}
+
+
+function changeAttribute() {
+
+    const image =
+        document.getElementById("myImage");
+
+    image.src =
+        "https://via.placeholder.com/200";
+
+    image.alt =
+        "Changed Image";
+
+}
+
+</script>
+
+</body>
+</html>
